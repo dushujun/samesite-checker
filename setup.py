@@ -19,4 +19,14 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     include_package_data=True,
+    classifiers=[
+        'Operating System :: MacOS',
+        'Operating System :: POSIX',
+        'Operating System :: POSIX :: Linux',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+    ]
 )
