@@ -10,7 +10,7 @@ with open(readme) as f:
 
 setup(
     name='samesite-checker',
-    version='0.1.0',
+    version='0.1.1',
     author='shujun.dsj',
     author_email='dushujun9@gmail.com',
     packages=find_packages(exclude=('tests', 'tests.*')),
