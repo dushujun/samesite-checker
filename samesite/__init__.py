@@ -3,12 +3,12 @@ import re
 
 
 __all__ = [
-    'should_send_sameiite_none',
+    'should_send_samesite_none',
     'is_samesite_none_incompatible',
 ]
 
 
-def should_send_sameiite_none(useragent: str):
+def should_send_samesite_none(useragent: str):
     return not is_samesite_none_incompatible(useragent)
 
 

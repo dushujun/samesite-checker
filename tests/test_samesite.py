@@ -40,6 +40,6 @@ import pytest
     ("", '', True)
 ))
 def test_samesite(client, useragent, expected):
-    from samesite import should_send_sameiite_none
+    from samesite import should_send_samesite_none
 
-    assert should_send_sameiite_none(useragent) == expected
+    assert should_send_samesite_none(useragent) == expected
